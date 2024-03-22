@@ -8,7 +8,7 @@ on:
       KERNEL_DEFCONFIG:
         description: 'Defconfig'
         required: true
-        default: 'vendor/bomb_user_defconfig'
+        default: 'platina_user_defconfig'
 
 jobs:
   build:
