@@ -25,6 +25,7 @@ jobs:
     - name: Download Clang
       run: |
         wget https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/master-kernel-build-2022/clang-r450784e.tar.gz
+        mkdir clang-aosp
         tar -C clang-aosp/ -zxvf clang-r450784e.tar.gz
 
     - name: Setup KernelSU
